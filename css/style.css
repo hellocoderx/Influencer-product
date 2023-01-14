@@ -1,0 +1,205 @@
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,700;1,900&family=Open+Sans:wght@600;700&family=Poppins:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400;700;900&family=Work+Sans:wght@100;200;300;400&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* -------------
+header section style 
+------------ */
+
+.header {
+    padding-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+
+/* banner styles  */
+
+.banner-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 133px;
+    padding: 30px 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+}
+
+.banners-titles {
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.description {
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+
+/* button styles  */
+
+.btn-style {
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-size: 16px;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+
+
+/* .company-section styles  */
+
+.company-section {
+    padding: 0px 120px;
+}
+
+.row-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 36px 36px;
+}
+
+hr {
+    border: 1px solid #C0CCDA;
+}
+
+
+/* course section styles  */
+
+.course-title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.course-section {
+    padding: 0px 120px;
+}
+
+.course-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.course-card {
+    padding: 17px 15px;
+}
+
+.course-card {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.course-star {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.star {
+    color: #FB8200;
+}
+
+.see-more {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.see-more a {
+    text-decoration: none;
+}
+
+
+/* products section styls  */
+
+.products-section {
+    padding: 100px 120px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.pro-tile {
+    padding-bottom: 16px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-description {
+    padding-bottom: 16px;
+}
+
+.footer {
+    background-color: #0A0826;
+}
+
+.footer-title {
+    padding: 50px 120px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon-social {
+    padding-top: 17px;
+    font-size: 32px;
+}
+
+.footer-title h3 {
+    font-size: 24px;
+    padding-bottom: 3px;
+}
